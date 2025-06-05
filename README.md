@@ -101,3 +101,6 @@ There are many ways to customize the look of the Notis toast:
     • slide-down
     • slide-back-up
     • slide-back-down
+
+## 📝 DevNotes 
+See `INFO.txt` for more information
