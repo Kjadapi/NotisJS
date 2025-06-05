@@ -1,6 +1,7 @@
 # NotisJS🍞
 
 A Lightweight customizable toast library for front-end developers.
+> This lib is still beta so if there is any issue just report it😁
 
 ## 🔗 CDN
 https://cdn-notisjs.netlify.app/Notis.min.js
