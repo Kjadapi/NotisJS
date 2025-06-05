@@ -9,7 +9,7 @@ https://cdn-notisjs.netlify.app/Notis.min.js
 ## 👨‍💻 How to:
 *link the JS file with your HTML:* 
 
-Download the Notis.min.js / Notis.js file above, you can use the CDN i provided too. Go to html and write 
+Download the Notis.min.js / Notis.js files, you can use the CDN i provided too. Go to html and write 
 `<script src="Notis.min.js"></script>` 
 
 *Show message:*
