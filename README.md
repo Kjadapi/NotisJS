@@ -3,8 +3,8 @@
 A Lightweight customizable toast library for front-end developers. no css file required
 > This lib is still beta so if there is any issue just report it😁
 
-## 🔗 CDN
-https://cdn-notisjs.netlify.app/Notis.min.js
+## 🔗 CDN Via jsDelivr
+https://cdn.jsdelivr.net/gh/Kjadapi/NotisJS/Notis/Notis.min.js
 
 ## 👨‍💻 How to:
 *link the JS file with your HTML:* 
