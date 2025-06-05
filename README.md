@@ -28,10 +28,12 @@ In your JS file write these codes:
 There are many ways to customize the look of the Notis toast:
 
 • Predefined Color Templates (PCT). 
+    
     A predefined theme designed to enhance the message style without much effort.
     Use PCT presets to quickly style your message:
     
     Notis.show('Hello', NotisLength.SHORT, Theme.DARK);
+
     
     Available PCT's:
     • Theme.DEFAULT - Gray bg / White text
@@ -44,17 +46,24 @@ There are many ways to customize the look of the Notis toast:
     • Theme.WT_LIGHT_BLUE - LightBlue bg / White text
   ️
 • Custom Styling:
+    
     You can fully customize the style with:
+    
     .themeCol() // Define your own custom background color 
+    
     .themeTxt() // Define your own custom text color
+    
     .edgeFrame() // Add & adjust the border color
+    
     .linearGrad() // Add a background linear gradient effect
+
     
     Example:↓
     Notis.show('Custom', NotifyLength.SHORT)
       .themeCol('#333') // Bg color
       .themeTxt('white') // Text color
       .edgeFrame('magenta'); // Border effect
+
     
     For gradient background:
     
@@ -62,22 +71,29 @@ There are many ways to customize the look of the Notis toast:
       .linearGrad('to right', 'blue', 'cyan');
     
 • Positioning the Message:
+
     To change the position of the message, use displayAt(); :
+
     
     Notis.show('Positioned', NotifyLength.SHORT)
       .displayAt(Pos.HEADEND);
+
     
     Available positions:
     • Pos.HEAD, Pos.BASE  (top / bottom center)
     • Pos.HEADSTART, Pos.HEADEND (top left / right)
     • Pos.BASESTART, Pos.BASEEND (bottom left / right)
     • Pos.START, Pos.END (center left / right)
+
   
 • Animation:
+   
     To add the animation, you use notisAnim(), example:
+
     
     Notis.show('Slide!', NotifyLength.SHORT)
       .notisAnim('slide-back-up');
+
     
     Available animations (more to come):
     • fade-in-out
