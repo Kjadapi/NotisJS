@@ -4,6 +4,7 @@ A Lightweight customizable toast library for front-end developers.
 
 ## CDN
 ```html
-<script src="https://cdn-notisjs.netlify.app/Notis.min.js" defer></script>```
+<script src="https://cdn-notisjs.netlify.app/Notis.min.js" defer></script>
 
-## How To:
+# Show the message:
+link the JS file with your HTML, you can use the CDN i provided too
