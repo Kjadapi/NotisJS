@@ -1,6 +1,6 @@
 # NotisJS🍞
 
-A Lightweight customizable toast library for front-end developers. no css file required
+A Simple lightweight customizable toast library for front-end developers. no css file required
 > This lib is still beta so if there is any issue just report it😁
 
 ## 🔗 CDN Via jsDelivr
