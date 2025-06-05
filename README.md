@@ -14,13 +14,10 @@ Download the Notis.min.js / Notis.js file above, you can use the CDN i provided 
 *Show message:*
 
 In your JS file write: 
-
-Short message:
-
+(Short message):
 `Notis.show('Your message', NotifyLength.SHORT);`
 
-Long message:
-
+(Long message):
 `Notis.show('Your message', NotifyLength.LONG);`
 
 > Note: You can't use raw millisecond values like 3000. Only NotifyLength.SHORT (4 sec) or NotifyLength.LONG (7 sec) are allowed.
