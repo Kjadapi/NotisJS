@@ -1,4 +1,74 @@
+@font-face {
+  font-family: Zain;
+  src: url(Zain-Regular.ttf);
+}
 body {
   padding: 0;
-  /*margin: 50px;*/
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: 120vw;
+  background-attachment: fixed;
+  background-image: url(demo.jpg);
+  color: #195382;
+}
+.cont {
+  display: block;
+  background-image: #31557380;
+}
+.bruh {
+  display: flex;
+  justify-content: center;
+}
+.bruh2 {
+  display: flex;
+  justify-content: center;
+}
+.btn2 {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: rgba(147, 206, 255, 1);
+  border: 2px solid;
+  border-color: #487CA6;
+  border-radius: 9px;
+  font-size: 14px;
+  margin: 29px 0 0 0;
+}
+#text {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  width: 300px;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+#text2 {
+  font-size: 17px;
+  line-height: 30px;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  max-width: 450px;
+  text-align: center;
+}
+#div {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin: 100px 0 0 0;
+  display: block;
+  width: 100%;
+  border-radius: 7px;
+  height: 600px;
+}
+.sheet {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.content {
+  padding: 12px;
 }

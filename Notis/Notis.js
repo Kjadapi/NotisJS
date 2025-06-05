@@ -169,6 +169,7 @@ window.myMessage = (function() {
           console.error(`Animation property "${anm}" is unrecognized, switching back to fade-in-out`);
         case 'fade-in-out':
           this.clearTimeout();
+          this.toast.style.willChange = 'transform, opacity'
           this.toast.style.transition ='opacity 0s';
           this.toast.style.opacity = '0';
           void this.toast.offsetWidth;
@@ -180,11 +181,13 @@ window.myMessage = (function() {
             this.toast.style.opacity = '0';
             setTimeout(() => {
               this.toast.style.visibility = 'hidden';
+              this.toast.style.willChange = 'auto';
             }, 400);
           }, dur);
           break;
         case 'slide-up':
           this.clearTimeout();
+          this.toast.style.willChange = 'transform, opacity'
           this.toast.style.transform = 'translateY(177px)';
           this.toast.style.transition ='opacity 0s, transform 0s';
           this.toast.style.opacity = '0';
@@ -199,11 +202,13 @@ window.myMessage = (function() {
             this.toast.style.opacity = '0';
             setTimeout(() => {
               this.toast.style.visibility = 'hidden';
+              this.toast.style.willChange = 'auto';
             }, 400);
           }, dur);
           break;
         case 'slide-down':
           this.clearTimeout();
+          this.toast.style.willChange = 'transform, opacity'
           this.toast.style.transform = 'translateY(-160px)';
           this.toast.style.transition = 'opacity 0s, transform 0s';
           this.toast.style.opacity = '0';
@@ -218,11 +223,13 @@ window.myMessage = (function() {
             this.toast.style.opacity = '0';
             setTimeout(() => {
               this.toast.style.visibility = 'hidden';
+              this.toast.style.willChange = 'auto';
             }, 400);
           }, dur);
           break;
         case 'slide-back-up':
           this.clearTimeout();
+          this.toast.style.willChange = 'transform, opacity'
           this.toast.style.transform = 'translateY(295px)';
           this.toast.style.transition = 'opacity 0s, transform 0s';
           this.toast.style.opacity = '0';
@@ -241,11 +248,13 @@ window.myMessage = (function() {
             this.toast.style.opacity = '0';
             setTimeout(() => {
               this.toast.style.visibility = 'hidden';
+              this.toast.style.willChange = 'auto';
             }, 400);
           }, dur);
           break;
         case 'slide-back-down':
           this.clearTimeout();
+          this.toast.style.willChange = 'transform, opacity'
           this.toast.style.transform = 'translateY(-195px)';
           this.toast.style.transition = 'opacity 0s, transform 0s';
           this.toast.style.opacity = '0';
@@ -264,6 +273,7 @@ window.myMessage = (function() {
             this.toast.style.opacity = '0';
             setTimeout(() => {
               this.toast.style.visibility = 'hidden';
+              this.toast.style.willChange = 'auto';
             }, 400);
           }, dur);
           break;
