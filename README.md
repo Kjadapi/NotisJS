@@ -6,6 +6,9 @@ A Simple lightweight customizable toast library for front-end developers. no css
 ## 🔗 CDN Via jsDelivr
 https://cdn.jsdelivr.net/gh/Kjadapi/NotisJS/Notis/Notis.min.js?=v0.1beta2
 
+## 💻 Simple live demo 
+https://kjadapi.github.io/NotisJS/demo.html
+
 ## 👨‍💻 How to:
 *link the JS file with your HTML:* 
 
