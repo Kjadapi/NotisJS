@@ -26,12 +26,13 @@ body {
   display: block;
   width: 120px;
   height: 50px;
-  background-color: rgba(147, 206, 255, 1);
+  background-color: #93CEFF;
   border: 2px solid;
   border-color: #487CA6;
   border-radius: 9px;
   font-size: 14px;
   margin: 29px 0 0 0;
+  box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.2);
 }
 #text {
   font-size: 40px;

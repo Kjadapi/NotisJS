@@ -1,4 +1,4 @@
-Notis.js library syntax, explanation & instruction:
+NotisJS library syntax, explanation & instruction:
 To set up Notis, go to your HTML file and link the JS file:
 
 <script src="Notis.min.js" defer></script>
@@ -40,6 +40,7 @@ Theme and Customization:
       .themeCol('#333') // Bg color
       .themeTxt('white') // Text color
       .edgeFrame('magenta'); // Border effect
+      ((Optional) you can customize the border width now: edgeFrame('color', 'borderWidth')) 
     
     For gradient background:
     
@@ -50,13 +51,17 @@ Theme and Customization:
     To change the position of the message, use displayAt(); :
     
     Notis.show('Positioned', NotifyLength.SHORT)
-      .displayAt(Pos.HEADEND);
+      .displayAt('head-end');
     
     Available positions:
-    • Pos.HEAD, Pos.BASE  (top / bottom center)
-    • Pos.HEADSTART, Pos.HEADEND (top left / right)
-    • Pos.BASESTART, Pos.BASEEND (bottom left / right)
-    • Pos.START, Pos.END (center left / right)
+    • "base"   (bottom, center)
+    • "head"   (top, center)
+    • "start"   (left, center)
+    • "end"   (right, center)
+    • "base-start"   (bottom, left)
+    • "base-end"   (bottom, right)
+    • "head-start"   (top, left)
+    • "head-end"   (top, right)
   
 • Animation:
     To add the animation, you use notisAnim(), example:
@@ -70,6 +75,20 @@ Theme and Customization:
     • slide-down
     • slide-back-up
     • slide-back-down
+    
+• Global styling
+    To set the default theme of the Notis message,
+    use Notis.setDefaults({..}). Ex:
+    
+    Notis.setDefaults({
+      themeCol: 'color', // Adjust the default bg color
+      themeTxt: 'color', // Adjust the default txt color
+      edgeFrame: ['color', 'thickness(optional)'], // Adjust the border color & border width
+      notisAnim: 'animation', // Adjust the default animation
+      displayAt: 'position', // Adjust the default position
+      linearGrad: ['direction', 'color, 'color'], // Adjust the default linear gradient color
+      placement: 'queue' // Make the toast appear one after another (Exclusive)
+    })
 
 Dev Notes:
 
@@ -80,6 +99,6 @@ Dev Notes:
   -----------
 - Avoid using these variable names globally: Notis, Theme, NotisLength, Pos
 - Other library integration/support is not guaranteed/tested
-- This library is still in beta
+- This library is still in BETA
 
 Written by: Kjadapi (2025)
