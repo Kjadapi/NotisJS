@@ -6,7 +6,7 @@ A simple, lightweight, customizable toast library for JavaScript developers. no 
 See the [Changelog](./CHANGELOG.md) for update information
 
 ## 🔗 CDN Via jsDelivr
-https://cdn.jsdelivr.net/gh/Kjadapi/NotisJS/Notis/Notis.min.js?=v0.2-beta
+https://cdn.jsdelivr.net/gh/Kjadapi/NotisJS/Notis/Notis.min.js?=v0.2-beta2
 
 ## 💻 Simple live demo 
 https://kjadapi.github.io/NotisJS/demo.html
