@@ -175,7 +175,7 @@ window.NotisMessage = (function() {
       this.toast.innerText = message;
       this.length = duration;
       this.isShown = true
-      this.notisAnim('slide-back-up');
+      this.notisAnim('fade-in-out');
       for (var cat in this.categoryMap) {
         var val = this.categoryMap[cat];
         switch (cat) {
