@@ -97,7 +97,7 @@ Dev Notes:
   <script src="Notis.min.js" defer></script>
   <script src="yourscript.js"></script>
   -----------
-- Avoid using these variable names globally: Notis, Theme, NotisLength, Pos
+- Avoid using these variable names globally: Notis, Theme, NotifyLength
 - Other library integration/support is not guaranteed/tested
 - This library is still in BETA
 
