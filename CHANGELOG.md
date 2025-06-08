@@ -1,6 +1,6 @@
 # 📄 Changelog
 ### v0.2-beta
-#### Whats new? 
+**Whats new?**
 - ✅ Added `Notis.setDefaults({..})` to configure default themes for every Notis/Toast message
 - ✅ Changes to `edgeFrame()`. now you can customize the thickness of the border effect. Ex `edgeFrame('green', '2px') `
 - ✅ Added `placement` as a `Notis.setDefaults({..})` option
@@ -9,7 +9,7 @@
 - ✅ Some potential bug fixes
 
 ### v0.1-beta2
-#### Whats new? 
+**Whats new?**
 - ✅ Animation performance improvement
 - ✅ Minor Changes
 
