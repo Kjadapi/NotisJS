@@ -38,7 +38,7 @@ There are many ways to customize the look of the Notis toast:
     A predefined theme designed to enhance the message style without much effort.
     Use PCT presets to quickly style your message:
     
-    Notis.show('Hello', NotisLength.SHORT, Theme.DARK);
+    Notis.show('Hello', NotifyLength.SHORT, Theme.DARK);
 
     
     Available PCT's:
@@ -52,7 +52,7 @@ There are many ways to customize the look of the Notis toast:
     • Theme.LIGHT_BLUE - LightBlue bg / Black text
     • Theme.WT_LIGHT_BLUE - LightBlue bg / White text
   ️
-## Custom Styling:
+### Custom Styling:
     
     You can fully customize the style with:
     
