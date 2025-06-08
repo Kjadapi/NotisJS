@@ -41,7 +41,8 @@ function ArrayList4() {
     console.log('4')
 }
 function ArrayList5() {
-    Notis.show('This is toast', NotifyLength.SHORT);
+    Notis.show('This is toast', NotifyLength.SHORT)
+    .notisAnim('slide-back-up');
     console.log('5')
 }
 function ArrayList6() {
