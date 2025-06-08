@@ -1,4 +1,8 @@
 # 📄 Changelog
+### v0.2-beta2
+**Whats new?**
+- 📝 Bug fixes
+- 📝 Animation logic adjustment
 ### v0.2-beta
 **Whats new?**
 - ✅ Added `Notis.setDefaults({..})` to configure default themes for every Notis/Toast message
